@@ -19,5 +19,5 @@ Xilinx FPGA with P4 compiler.
 
 
 
-Specifically, no p4rt implementation for P4 exists.
+Specifically, no openwrt access point implementation for P4 exists.
  
