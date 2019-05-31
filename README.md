@@ -4,9 +4,9 @@ Cisco and Arista have switches running the Barefoot Tofino asic.
 
 Barefoot Networks Tofino asic in ODM switches (supports p4-16).  Two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
-Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU
+Intel has P4 to DPDK, supports p4-16: https://www.youtube.com/watch?v=uI29_q-SoPU
 
-Netcope : https://www.netcope.com/en/products/netcopep4.  Has software tools to program FPGA with P4
+Netcope : https://www.netcope.com/en/products/netcopep4.  Has software tools to program FPGA with P4 (p4-16?)
 
 Netronome NIC using NPU - has p4 compiler (supports p4-16).
 
