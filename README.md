@@ -1,6 +1,6 @@
 The list below covers several hardware targets supporting P4 in abphabetical order.  Cisco and Arista have switches running the Barefoot Tofino asic.
 
-Barefoot Networks Tofino asic in ODM switches.  Two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with their switch OS and orchestration. 
+Barefoot Networks Tofino asic in ODM switches.  Two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
 Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU
 
