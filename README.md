@@ -1,4 +1,6 @@
-The list below covers several hardware targets supporting P4 in abphabetical order.  Cisco and Arista have switches running the Barefoot Tofino asic.
+The list below covers several hardware targets supporting P4 in abphabetical order.  Supporting p4 entails the target supports a p4c (P4 compiler) backend.  Specifically, a target that only supports p4runtime is not included.
+
+Cisco and Arista have switches running the Barefoot Tofino asic.
 
 Barefoot Networks Tofino asic in ODM switches.  Two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
@@ -11,6 +13,8 @@ Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Resea
 p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.
 
 Xilinx FPGA with P4 compiler.
+
+
 
 Specifically, no p4rt implementation for P4 exists.
  
