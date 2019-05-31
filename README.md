@@ -6,7 +6,9 @@ Barefoot Networks Tofino asic in ODM switches (supports p4-16).  Two ODM vendors
 
 Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU
 
-Netronome NIC using NPU with P4 compile (supports p4-16).
+Netcope : https://www.netcope.com/en/products/netcopep4.  Has software tools to program FPGA with P4
+
+Netronome NIC using NPU - has p4 compiler (supports p4-16).
 
 Orange: Has a p4c backend for linux user space (supports p4-16).  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
