@@ -15,13 +15,13 @@ First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second,
 
 3. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
 
-4. Netronome NIC using NPU - has p4 compiler.
+4. Netronome NIC using NPU - has p4 compiler.  https://www.netronome.com/products/datapath-programming-tools/
 
 5. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
-6. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.
+6. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
 
-7. Xilinx FPGA with P4 compiler.
+7. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
 
 
 
