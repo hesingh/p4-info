@@ -9,7 +9,7 @@ The list covers hardware targets and platforms supporting P4-16 in abphabetical 
 First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second, for FPGA, Xilinx provides their P4 programming tools chain.  There is also Netcope who has a tools chain for P4 programming of FPGA from Intel and Xilinx.
 
 ###
-1. Barefoot Networks Tofino asic in ODM switches - two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
+1. Barefoot Networks Tofino asic in ODM switches - some ODM vendors are Edgecore, Netberg, Inventec, Delta, WNC, and Foxconn.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
 2. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU
 
