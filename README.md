@@ -1,6 +1,12 @@
-The list below covers several hardware targets supporting P4-16 in abphabetical order.  Supporting p4 entails the target supports a p4c (P4 compiler) backend.  Specifically, a target that only supports p4runtime is not included.
+## Terminology 
 
-First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second, for FPGA, Xilinx provides their P4 programming tools chain.  However, there is Netcope who has a tools chain for P4 programming of FPGA as well.
+(a) A hardware target is a switching asic, FPGA, or generic compute.  
+(b) A platform is a switch (using asic), smartNIC (using FPGA), or server/laptop machine. 
+
+## List
+The list covers hardware targets supporting P4-16 in abphabetical order.  Supporting p4 entails the target supports a p4c (P4 compiler) backend.  A hardware target is useles without a P4 compiler (p4c) - therefore compiler vendors are also listed. Lastly, a target that only supports p4runtime is not included.
+
+First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second, for FPGA, Xilinx provides their P4 programming tools chain.  There is also Netcope who has a tools chain for P4 programming of FPGA.
 
 ###
 1. Barefoot Networks Tofino asic in ODM switches - two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
