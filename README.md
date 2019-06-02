@@ -1,19 +1,19 @@
 ## Terminology 
 
 (a) A hardware target is a switching asic, FPGA, or generic compute.  
-(b) A platform is a switch (using asic), smartNIC (using FPGA), or server/laptop machine. 
+(b) A hardware platform is a switch (using asic), smartNIC (using FPGA), or server/laptop machine. 
 
 ## List
-The list covers hardware targets supporting P4-16 in abphabetical order.  Supporting p4 entails the target supports a p4c (P4 compiler) backend.  A hardware target is useles without a P4 compiler (p4c) - therefore compiler vendors are also listed. Lastly, a target that only supports p4runtime is not included.
+The list covers hardware targets and platforms supporting P4-16 in abphabetical order.  Supporting p4 entails the target supports a p4c (P4 compiler) backend.  A hardware target is useles without a P4 compiler (p4c) - therefore compiler vendors are also listed.  Lastly, a target that only supports p4runtime is not included.
 
-First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second, for FPGA, Xilinx provides their P4 programming tools chain.  There is also Netcope who has a tools chain for P4 programming of FPGA.
+First, Cisco and Arista have switches running the Barefoot Tofino asic.  Second, for FPGA, Xilinx provides their P4 programming tools chain.  There is also Netcope who has a tools chain for P4 programming of FPGA from Intel and Xilinx.
 
 ###
 1. Barefoot Networks Tofino asic in ODM switches - two ODM vendors are Edgecore and Netberg.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
 2. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU
 
-3. Netcope : https://www.netcope.com/en/products/netcopep4.  Has software tools to program FPGA with P4 (p4-16?)
+3. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
 
 4. Netronome NIC using NPU - has p4 compiler.
 
