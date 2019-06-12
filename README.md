@@ -1,3 +1,6 @@
+## GOAL
+This page is created for newcomers to P4 who ask for "what hardware can one use to prototype P4 code?"
+
 ## Terminology 
 
 (a) A hardware target is a switching asic, FPGA, NPU, or generic compute.  
