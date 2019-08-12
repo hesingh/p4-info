@@ -12,19 +12,21 @@ The list covers hardware targets and platforms supporting P4-16 in abphabetical 
 For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netcope who has a tools chain for P4 programming FPGA from Intel and Xilinx.
 
 ###
-1. Barefoot Networks Tofino asic in ODM switches - some ODM vendors are Edgecore (https://www.edge-core.com/), Netberg (https://netbergtw.com/about/), Inventec (https://www.inventec.com/english/indexEN.htm), Delta, WNC (http://www.wnc.com.tw/mobile/index.php?action=product_detail&top_id=28&scid=31&tid=99&lid=99&id=353), and Foxconn.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
+1. Barefoot Networks Tofino/Tofino2 asic in ODM switches - some ODM vendors are Edgecore (https://www.edge-core.com/), Netberg (https://netbergtw.com/about/), Inventec (https://www.inventec.com/english/indexEN.htm), Delta, WNC (http://www.wnc.com.tw/mobile/index.php?action=product_detail&top_id=28&scid=31&tid=99&lid=99&id=353), and Foxconn.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
-2. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU .  Also see http://lists.p4.org/pipermail/p4-dev_lists.p4.org/2019-June/003981.html
+2. Mellanox has Spectrum/Spectrum2 asic.  Their switch inforamation is a Linux switch using TC. Mellanox has a P4c backend that we plan to open source (as soon as we get it modularized from our common backend infra). Marian presented this at this year's netdev conference. https://www.netdevconf.org/0x13/session.html?p4-compiler-backend-for-tc
 
-3. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
+3. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU .  Also see http://lists.p4.org/pipermail/p4-dev_lists.p4.org/2019-June/003981.html
 
-4. Netronome NIC using NPU - has p4 compiler.  https://www.netronome.com/products/datapath-programming-tools/
+4. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
 
-5. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
+5. Netronome NIC using NPU - has p4 compiler.  https://www.netronome.com/products/datapath-programming-tools/
 
-6. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
+6. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
-7. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
+7. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
+
+8. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
 
 
 
