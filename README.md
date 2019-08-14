@@ -16,7 +16,7 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 
 2. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU .  Also see http://lists.p4.org/pipermail/p4-dev_lists.p4.org/2019-June/003981.html
 
-3. Mellanox has Spectrum/Spectrum2 asic.  Their Linux switch uses TC.  Mellanox has a p4c with front-end and mid-end using open-source p4lang/p4c.  Mellanox has a p4c backend they plan to open source (as soon as we get it modularized from our common backend infra). Marian presented this at this year's netdev conference. https://www.netdevconf.org/0x13/session.html?p4-compiler-backend-for-tc
+3. Mellanox has Spectrum/Spectrum2 asic. Their switches are SN2100, SN2700 (Spectrum) and SN3700 (Spectrum 2).  Their Linux switch uses TC.  Mellanox has a p4c with front-end and mid-end using open-source p4lang/p4c.  Mellanox has a p4c backend they plan to open source (as soon as we get it modularized from our common backend infra). Marian presented this at this year's netdev conference. https://www.netdevconf.org/0x13/session.html?p4-compiler-backend-for-tc
 
 4. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
 
