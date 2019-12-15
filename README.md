@@ -28,7 +28,7 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 
 8. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
 
-
+9. Development platform for $100.  See  https://northboundnetworks.com/collections/zodiac-fx and https://github.com/NorthboundNetworks/p4c-zodiacfx
 
 Specifically, no openwrt access point implementation for P4 exists.
  
