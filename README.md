@@ -24,11 +24,13 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 
 6. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
-7. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
+7. Pensando has a smartNIC card that goes into a PCI slot of a computing machine.  Also, see https://p4.org/p4/pensando-joins-p4.html
 
-8. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
+8. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
 
-9. Development platform for $100.  See  https://northboundnetworks.com/collections/zodiac-fx and https://github.com/NorthboundNetworks/p4c-zodiacfx.  The platform converts P4 to C.
+9. Xilinx FPGA with P4 compiler.  https://www.xilinx.com/support/documentation-navigation/development-tools/software-development/sdnet.html
+
+10. Development platform for $100.  See  https://northboundnetworks.com/collections/zodiac-fx and https://github.com/NorthboundNetworks/p4c-zodiacfx.  The platform converts P4 to C.
 
 Specifically, no openwrt access point implementation for P4 exists.
  
