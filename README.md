@@ -24,7 +24,7 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 
 6. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
-7. Pensando has a smartNIC card that goes into a PCI slot of a computing machine.  Also, see https://p4.org/p4/pensando-joins-p4.html
+7. Pensando has a service card that goes into a PCI slot of a computing machine.  Also, see https://p4.org/p4/pensando-joins-p4.html
 
 8. p4lang/p4c EBPF (Enhanced Berkeley Packet Filter).  EBPF runs inside Linux kernel.  https://github.com/p4lang/p4c/tree/master/backends/ebpf
 
