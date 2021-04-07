@@ -14,6 +14,8 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 ###
 1. Barefoot Networks Tofino/Tofino2 asic in ODM switches - some ODM vendors are Edgecore (https://www.edge-core.com/), Netberg (https://netbergtw.com/about/), Inventec (https://www.inventec.com/english/indexEN.htm), Delta, WNC (http://www.wnc.com.tw/mobile/index.php?action=product_detail&top_id=28&scid=31&tid=99&lid=99&id=353), and Foxconn.  Stordis and Kaloom use ODM switches with open or proprietary switch OS. 
 
+Sample P4-16 programs for Tofino are at this repo: https://github.com/barefootnetworks/Open-Tofino.
+
 2. Intel has P4 to DPDK: https://www.youtube.com/watch?v=uI29_q-SoPU .  Also see http://lists.p4.org/pipermail/p4-dev_lists.p4.org/2019-June/003981.html
 
 3. Mellanox has Spectrum/Spectrum2 asic. Their switches are SN2100, SN2700 (Spectrum) and SN3700 (Spectrum 2).  Their Linux switch uses TC.  Mellanox has a p4c with front-end and mid-end using open-source p4lang/p4c.  Mellanox has a p4c backend they plan to open source (as soon as we get it modularized from our common backend infra). Marian presented this at this year's netdev conference. https://www.netdevconf.org/0x13/session.html?p4-compiler-backend-for-tc
