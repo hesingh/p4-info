@@ -20,7 +20,7 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 
 3. Mellanox has Spectrum/Spectrum2 asic. Their switches are SN2100, SN2700 (Spectrum) and SN3700 (Spectrum 2).  Their Linux switch uses TC.  Mellanox has a p4c with front-end and mid-end using open-source p4lang/p4c.  Mellanox has a p4c backend they plan to open source (as soon as we get it modularized from our common backend infra). Marian presented this at this year's netdev conference. https://www.netdevconf.org/0x13/session.html?p4-compiler-backend-for-tc
 
-4. Netcope : https://www.netcope.com/en/products/netcopep4.  Has tools chain to program FPGA with P4 (p4-16?)
+4. Netcope : https://www.intel.com/content/www/us/en/programmable/solutions/partners/partner-profile/netcope-technologies--a-s-.html.  Has tools chain to program FPGA with P4 (p4-16)
 
 5. Netronome NIC using NPU - has p4 compiler.  https://www.netronome.com/products/datapath-programming-tools/
 Update, 04/07/2021: Netronome has closed its California Bay Area office.  Try shopping for Intel/Xilinx NIC which support P4.
