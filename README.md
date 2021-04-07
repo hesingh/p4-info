@@ -24,7 +24,13 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
 4. Netcope : https://www.intel.com/content/www/us/en/programmable/solutions/partners/partner-profile/netcope-technologies--a-s-.html.  Has tools chain to program FPGA with P4 (p4-16)
 
 5. Netronome NIC using NPU - has p4 compiler.  https://www.netronome.com/products/datapath-programming-tools/
-Update, 04/07/2021: Netronome has closed its California Bay Area office.  Try shopping for Intel/Xilinx NIC which support P4.
+   Update, 04/07/2021: Netronome has closed its California Bay Area office.  However, one can still buy their smart NICs from Colfax.
+   See https://www.colfaxdirect.com/>.  One NIC is CX 2x10GbE.  
+
+
+
+
+Try shopping for Intel/Xilinx NIC which support P4.
 
 6. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
