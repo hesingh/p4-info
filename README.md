@@ -27,10 +27,9 @@ For FPGA, Xilinx provides their P4 programming tools chain.  There is also Netco
    Update, 04/07/2021: Netronome has closed its California Bay Area office.  However, one can still buy their smart NICs from Colfax.
    See https://www.colfaxdirect.com/>.  One NIC is CX 2x10GbE.  
 
-
-
-
-Try shopping for Intel/Xilinx NIC which support P4.
+   Try shopping for Intel/Xilinx NIC which support P4.
+   
+   Also see: https://blog.mellanox.com/2018/08/defining-smartnic/
 
 6. Orange: Has a p4c backend for linux user space.  See https://github.com/P4-Research/p4c/tree/master/backends/ubpf
 
